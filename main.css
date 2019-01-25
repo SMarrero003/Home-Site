@@ -1,0 +1,168 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: montserrat, sans-serif;
+}
+
+#navbar {
+  position: fixed;
+}
+
+.nav-link {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 30px 50px;
+  top: 0;
+  bottom: 0;
+}
+
+nav ul {
+  text-align: center;
+  background-color: rgb(210, 220, 220);
+  margin: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  border-style: none none solid none;
+  border-width: 2px;
+  border-color: rgb(150 180 200);
+  vertical-align: middle;
+  padding-left: 0px;
+}
+
+.nav-list a.nav-link:hover {
+  text-shadow: 2px 2px 5px rgb(120 160 200);
+  border-color: rgb(180 200 220);
+  transition: 250ms;
+}
+
+#welcome-section {
+  padding-top: 40vh;
+  height: 60vh;
+  text-align: center;
+  background-color: rgb(225 240 230);
+}
+
+.welcome-header {
+  margin-bottom: -10px;
+}
+
+.project {
+  height: auto;
+  text-align: center;
+  background-color: beige;
+  padding: 50px;
+  min-height: 81vh;
+}
+
+.proj-img {
+  transition: 0.5s;
+  height: 220px;
+  width: 250px;
+  border-style: solid;
+  border-color: #6464c8;
+  border-bottom-color: #6496c8;
+  border-width: 3px;
+}
+
+.proj-header {
+  margin-top: 0px;
+  top: 35px;
+}
+
+.box-img {
+  display: inline-block;
+  height: 100px;
+  margin: 40px;
+  padding-bottom: 0;
+}
+
+.proj-text {
+  border-style: none solid solid solid;
+  border-color: #6464c8;
+  border-width: 3px;
+  margin-top: -4px;
+  background-color: beige;
+  font-weight: bold;
+}
+
+.contact {
+  height: auto;
+  text-align: center;
+  background-color: rgb(200 170 160);
+  padding: 50px;
+  min-height: 30vh;
+}
+
+.contact-header {
+  margin-top: 0px;
+  top: 35px;
+}
+
+.social {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.bubble {
+  display: inline-block;
+  border-style: solid;
+  border-radius: 100%;
+  margin: 20px;
+  border-color: rgb(130 150 190);
+  background-color: rgb(210 230 230);
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+  font-weight: bold;
+  color: rgb(30 50 60);
+}
+
+.social .bubble:hover {
+  background-color: rgb(190 200 200);
+  transition: 0.4s;
+}
+
+footer {
+  background-color: rgb(34 49 63);
+  color: white;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .proj-img {
+    transition: 0.5s;
+    height: 150px;
+    width: 170px;
+  }
+}
+
+@media (max-width: 700px) {
+  .proj-img {
+    transition: 0.5s;
+    height: 100px;
+    width: 120px;
+  }
+
+  .proj-text {
+    font-size: 14px;
+  }
+}
